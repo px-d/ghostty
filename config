@@ -1,0 +1,43 @@
+# Theme
+bold-is-bright = true
+background-opacity = 0.9
+background-blur-radius = 30
+mouse-hide-while-typing = true
+
+# Titlebar
+macos-titlebar-style = "transparent"
+macos-titlebar-proxy-icon = "hidden"
+
+# Font
+font-family = "JetBrains Mono NerdFont"
+font-size = 20
+
+# Window 
+window-width = 70
+window-height = 20
+window-padding-x = 8
+window-padding-y = 6
+
+# Misc
+shell-integration-features = "sudo,title"
+quit-after-last-window-closed = "true"
+
+# Icon
+macos-icon = custom-style
+macos-icon-frame = "plastic"
+macos-icon-ghost-color = purple
+
+# Key bindings
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:bottom
+keybind = ctrl+k=goto_split:top
+keybind = ctrl+l=goto_split:right
+keybind = ctrl+shift+h=new_split:left
+keybind = ctrl+shift+j=new_split:down
+keybind = ctrl+shift+k=new_split:up
+keybind = ctrl+shift+l=new_split:right
+keybind = super+shift+enter=new_split:auto
+keybind = super+shift+i=inspector:toggle
+keybind = super+shift+r=reload_config
+keybind = super+t=new_tab
+# custom-shader = "/Users/pdz/.config/ghostty/ghostty-shaders/sparks-from-fire.glsl"
